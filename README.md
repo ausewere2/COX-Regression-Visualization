@@ -63,7 +63,7 @@ Call: survfit(formula = Surv(time, status) ~ 1, data = d_lung)
 [1,] 228    165    310     285     363
 
 Included plot
-![PLOT_1_m0](images/PLOT_1_m0.png)
+![PLOT_1_m0](PLOT_1_m0.png)
 
 Overall Kaplan–Meier curve (saved separately as PLOT_1_m0):
 
@@ -101,7 +101,7 @@ legend(
 )
 
 Included plot
-![PLOT_2_m1](images/PLOT_2_m1.png)
+![PLOT_2_m1](PLOT_2_m1.png)
 
 3. Exercise 2 – Cox Regression for Symptom Status
 3.1 Univariable Cox model (symptoms only)
@@ -342,5 +342,6 @@ Example:
 
 
 Save to CSV:
+
 
 write.csv2(results_wtloss, file = "results_wtloss.csv", row.names = FALSE)
