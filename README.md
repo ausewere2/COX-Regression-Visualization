@@ -99,10 +99,11 @@ legend(
   col = c("orange", "black"),
   legend = c("Symptomatic", "Asymptomatic")
 )
+---
 
 ![PLOT_2_m1](images/PLOT_2_m1.jpg)
 
-3. Exercise 2 – Cox Regression for Symptom Status
+###3. Exercise 2 – Cox Regression for Symptom Status
 3.1 Univariable Cox model (symptoms only)
 
 We fit a simple Cox model with symptom status as the only explanatory variable:
@@ -344,6 +345,7 @@ Save to CSV:
 
 
 write.csv2(results_wtloss, file = "results_wtloss.csv", row.names = FALSE)
+
 
 
 
